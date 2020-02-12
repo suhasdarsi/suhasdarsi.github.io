@@ -1,0 +1,59 @@
+baseurl         = "https://example.suhasdarsi.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Suhas Darsi"
+  subtitle    = "My Website"
+
+  cover       = ""
+  description = "Suhas Darsi's personal website"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "suhas_darsi"
+  githubName = "suhasdarsi"
+
+  logo = ""
+  orgName = "Suhas Darsi"
+  orgWebsite = "https://www.aztlan.in"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "suhasdarsi"
+  authorAvatar = "upload/profile_image.jpeg"
+  authorLocation = "Gachibowli, HYD"
+  authorWebsite = "https://suhasdarsi.github.io"
+  authorDescription = "Coder | Developer | Designer | Photographer "
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/life/"
+  weight = 99
+
+[[menu.main]]
+  name = "My Company"
+  url = "https://aztlan.in/"
+  weight = 95
